@@ -1,0 +1,43 @@
+// Resets
+  *{
+    box-sizing: border-box;
+    outline: none;
+  }
+
+//******************************
+
+// Background Sizes
+  .bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+//******************************
+
+// Sizes
+  .full-width {
+    width: 100%;
+  }
+
+//******************************
+
+// Positions
+  .centered-h {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .centered-v {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
